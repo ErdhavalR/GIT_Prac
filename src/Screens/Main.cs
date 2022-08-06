@@ -71,5 +71,25 @@ namespace GIT_Prac
         }
         #endregion
 
+        #region // ------------------------------ Button Delete Click Event ------------------------------ //
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            int DeleteRowIndex = 0;
+            DialogResult DRObj = MessageBox.Show("Do You Really Want To Delete Last Entered Row ?","Delete Row", MessageBoxButtons.YesNo);
+            if (DRObj == DialogResult.Yes)
+            {
+                DeleteRowIndex = dgvPersonalDetails.CurrentCell.RowIndex;
+                dgvPersonalDetails.Rows.RemoveAt(DeleteRowIndex);
+                MessageBox.Show("Last Row Deleted Successfully");
+            }
+            else
+            {
+                //txtName.Clear();
+                //cmbCity.SelectedIndex = 0;
+                //txtAddress.Clear();
+                //txtZipCode.Clear();
+            }
+        }
+        #endregion
     }
 }
