@@ -1,0 +1,10 @@
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\bin\Debug\GIT_Prac.exe.config
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\bin\Debug\GIT_Prac.exe
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\bin\Debug\GIT_Prac.pdb
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.csprojAssemblyReference.cache
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.Properties.Resources.resources
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.Form1.resources
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.csproj.GenerateResource.cache
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.csproj.CoreCompileInputs.cache
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.exe
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.pdb
