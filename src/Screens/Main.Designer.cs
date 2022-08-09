@@ -41,7 +41,6 @@
             this.cmbCity = new System.Windows.Forms.ComboBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.dgvPersonalDetails = new System.Windows.Forms.DataGridView();
             this.clmSrNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -169,24 +168,13 @@
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Lucida Bright", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(197, 223);
+            this.btnUpdate.Location = new System.Drawing.Point(267, 223);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(114, 47);
             this.btnUpdate.TabIndex = 11;
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
-            // 
-            // btnSave
-            // 
-            this.btnSave.Font = new System.Drawing.Font("Lucida Bright", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(350, 223);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(114, 47);
-            this.btnSave.TabIndex = 12;
-            this.btnSave.Text = "SAVE";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnDelete
             // 
@@ -269,7 +257,6 @@
             this.ClientSize = new System.Drawing.Size(657, 533);
             this.Controls.Add(this.dgvPersonalDetails);
             this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.cmbCity);
@@ -306,7 +293,6 @@
         private System.Windows.Forms.ComboBox cmbCity;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.DataGridView dgvPersonalDetails;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmSrNo;

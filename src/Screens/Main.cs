@@ -74,7 +74,6 @@ namespace GIT_Prac
         private void Form1_Load(object sender, EventArgs e)
         {
             cmbCity.SelectedIndex = 0;
-            App_Globals.Globals.DbObj.Request2Response();
         }
         #endregion
 
@@ -107,10 +106,6 @@ namespace GIT_Prac
         #endregion
 
         #region // ------------------------------ Button Save Click Event ------------------------------ //
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-
-        }
         #endregion
 
     }

@@ -8,3 +8,7 @@ D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.csproj.Gene
 D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.csproj.CoreCompileInputs.cache
 D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.exe
 D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.pdb
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\bin\Debug\MySql.Data.dll
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\bin\Debug\MySqlBackup.dll
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.exe.config
+D:\User\DHAVAL\GIT\GIT_Practice\GIT_Prac\GIT_Prac\obj\Debug\GIT_Prac.csproj.CopyComplete

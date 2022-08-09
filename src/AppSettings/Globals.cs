@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
-using Aarohi_Modbus;
+//using Aarohi_Modbus;
 using System.Windows.Forms;
 using DataBaseClass;
-using Aarohi_Devices;
+//using Aarohi_Devices;
 using System.Drawing;
 namespace App_Globals               
 {
@@ -16,9 +16,9 @@ namespace App_Globals
 		public static string  SoftwareNameForDefaultJsonFile	= "AutoTesterV2";
 		public static string  SoftwareVersionNo					= "V0.0.217";
 		public static string  SoftwareTitle						= "AutoTesterV2 " + SoftwareVersionNo.Trim() + " - Powered By Aarohi Embedded Systems Pvt.Ltd.";//display software version or form name 
-		public static modbus  ModObj							= new modbus(); //mod object
+		//public static modbus  ModObj							= new modbus(); //mod object
 		public static DBClass DbObj								= new DBClass();    //Database Object
-		public static DeviceSettings DeviceSettingsObj			= new DeviceSettings();/// DeviceSettingsObj object create
+		//public static DeviceSettings DeviceSettingsObj			= new DeviceSettings();/// DeviceSettingsObj object create
 		public static string AppPath							= Path.GetDirectoryName(Application.ExecutablePath);//application path
 		public static string GroupId							= "0";
 		public static string CategoryNameId						= "0";
