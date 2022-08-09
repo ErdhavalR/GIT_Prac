@@ -216,6 +216,7 @@
             this.dgvPersonalDetails.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvPersonalDetails.Size = new System.Drawing.Size(632, 232);
             this.dgvPersonalDetails.TabIndex = 14;
+            this.dgvPersonalDetails.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPersonalDetails_CellClick);
             this.dgvPersonalDetails.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvPersonalDetails_CellFormatting);
             // 
             // clmSrNo

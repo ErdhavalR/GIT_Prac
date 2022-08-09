@@ -17,6 +17,7 @@ namespace GIT_Prac
     public partial class Form1 : Form
     {
         #region // ------------------------------ Form Variables ------------------------------ //
+        public int GridViewCellIndex;
         #endregion
 
         #region // ------------------------------ TextBox ZipCode KeyPress Event ------------------------------ //
@@ -101,12 +102,36 @@ namespace GIT_Prac
         #region // ------------------------------ Button Update Click Event ------------------------------ //
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-
+            DialogResult DRobj = MessageBox.Show("Do You Want To Update The Data", "Update User :- '" + txtName.Text + "' Data", MessageBoxButtons.YesNo);
+            if (DRobj == DialogResult.Yes)
+            {
+                DataGridViewRow NewData = dgvPersonalDetails.Rows[GridViewCellIndex];
+                NewData.Cells[1].Value = txtName.Text;
+                NewData.Cells[2].Value = txtAddress.Text;
+                NewData.Cells[3].Value = cmbCity.Text;
+                NewData.Cells[4].Value = txtZipCode.Text;
+            }
+            else if(DRobj == DialogResult.No)
+            {
+                txtName.Clear();
+                cmbCity.SelectedIndex = 0;
+                txtAddress.Clear();
+                txtZipCode.Clear();
+                //GridViewCellIndex = null;
+            }
         }
         #endregion
 
-        #region // ------------------------------ Button Save Click Event ------------------------------ //
+        #region // ------------------------------ Data_Grid__View_Personal_Details Cell Click Event ------------------------------ //
+        private void dgvPersonalDetails_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            GridViewCellIndex       = e.RowIndex;
+            DataGridViewRow Row     = dgvPersonalDetails.Rows[GridViewCellIndex];
+            txtName.Text            = Row.Cells[1].Value.ToString();
+            txtAddress.Text         = Row.Cells[2].Value.ToString();
+            cmbCity.SelectedItem    = Row.Cells[3].Value.ToString();
+            txtZipCode.Text         = Row.Cells[4].Value.ToString();
+        }
         #endregion
-
     }
 }
