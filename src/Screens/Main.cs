@@ -91,5 +91,19 @@ namespace GIT_Prac
             }
         }
         #endregion
+
+        #region // ------------------------------ Button Update Click Event ------------------------------ //
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+
+        #region // ------------------------------ Button Save Click Event ------------------------------ //
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
 }
