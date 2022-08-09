@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\AppSettings\Globals.cs" />
     <Compile Include="src\Screens\Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,7 +82,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
-    <Folder Include="src\AppSettings\" />
     <Folder Include="src\Devices\" />
     <Folder Include="src\Reports\" />
   </ItemGroup>

@@ -7,16 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Data.SqlClient;
+using GIT_Prac;
+using App_Globals;
+using DataBaseClass;
 
 namespace GIT_Prac
 {
     public partial class Form1 : Form
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
-
+        #region // ------------------------------ Form Variables ------------------------------ //
+        #endregion
 
         #region // ------------------------------ TextBox ZipCode KeyPress Event ------------------------------ //
         private void txtZipCode_KeyPress(object sender, KeyPressEventArgs e)
@@ -65,9 +66,15 @@ namespace GIT_Prac
         #endregion
 
         #region // ------------------------------ Main_Form Load Event ------------------------------ //
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             cmbCity.SelectedIndex = 0;
+            App_Globals.Globals.DbObj.Request2Response();
         }
         #endregion
 
@@ -105,5 +112,6 @@ namespace GIT_Prac
 
         }
         #endregion
+
     }
 }
