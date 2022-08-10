@@ -14,7 +14,7 @@ namespace App_Globals
 	class Globals
 	{
 		public static string  SoftwareNameForDefaultJsonFile	= "AutoTesterV2";
-		public static string  SoftwareVersionNo					= "V0.0.217";
+		public static string  SoftwareVersionNo					= "V0.0.218";//V0.0.217
 		public static string  SoftwareTitle						= "AutoTesterV2 " + SoftwareVersionNo.Trim() + " - Powered By Aarohi Embedded Systems Pvt.Ltd.";//display software version or form name 
 		//public static modbus  ModObj							= new modbus(); //mod object
 		public static DBClass DbObj								= new DBClass();    //Database Object
